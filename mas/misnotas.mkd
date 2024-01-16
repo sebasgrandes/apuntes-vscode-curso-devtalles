@@ -1,0 +1,118 @@
+1. Edición
+
+-   Generales:
+    _Ctrl + Shift + P_ = _F1_ = Comand Palette (_CP_)
+    _Ctrl + B_ = Muestra/Oculta la barra
+    _Ctrl + Shift + E_ = Muestra el explorador de la barra
+    _Ctrl + Shift + X_ = Muestra las extensiones
+
+-   Movimientos
+    _CP -> Sort Lines ascending/descending_ = lineas en orden alfabetico
+
+-   Comentarios
+    _Ctrl + }_ = (Line Comment) Comentar linea entera de codigo
+    _Shift + Alt + A_ = (Block Comment) Comentar texto seleccionado
+
+-   Nuevo archivo
+    _Ctrl + Click_ (en la ruta de un archivo que no existe) = Pregunta si crea el archivo y te lleva a el
+    _Ctrl + Click_ (en la ruta de un archivo que si existe) = Te lleva al archivo
+    Ir a la definición = _F12_ = Ctrl + Click
+    Ojear definición de RUTA o FUNCION = _Alt + F12_ (en una nueva miniventana)
+    Ojear definicion de funcion = _Ctrl + Hover mouse_ (se muestra en un popup)
+
+-   Borrar lineas
+    _Ctrl + Shift + L_ = Selecciona todas las ocurrencias de la seleccion (tanto si tienes el cursor sobre la palabra o si la seleccionas)
+    _Ctrl + Shift + K_ = Borra lineas enteras de codigo (aun asi selecciones solo una partecita del texto)
+    _Shift + Supr_ = Sobre una sola línea de codigo: borra la linea entera. Seleccionando solo una partecita del texto: borra esa partecita
+
+-   Zen mode
+    _Ctrl + K Z_ = Activa Zen Mode
+
+-   Terminal
+    _Ctrl + ñ_ = Toggle Terminal
+
+    # investigar mas sobre la extension emmet
+
+-   Emmet Wrap
+    _selecciona texto -> CP -> Wrap with abbreviation_ = embebe el texto seleccionado con las etiquetas que coloques en el CP (puede ser un simple "code" o un "ul>li>span.text-center")
+
+    también puedes usar el emmet abreviation dentro del editor de codigo... solo digita _"p.text-center"_ o similar y listo
+
+-   Chrome Tabs
+    _Ctrl + P_ = Busca archivos (puedes digital "chrome", o quiza "comenta .ts" para indicarle parte del nombre y su extension)
+    _Ctrl + K Ctrl + W_ = Cerrar todas
+    _Ctrl + Shift + T_ = Reabrir anterior
+    <!-- _Ctrl + W_ = Cerrar tab
+    _Ctrl + TAB_ = Cambiar de tab -->
+
+-   Creación rápida de carpetas y archivos
+    Al crear una carpeta o archivo en tu arbol de carpetas digitas: _folder1/folder2/app.js_ (si le das a crear carpeta solo te dejara crear carpetas... si le das a crear archivo te dejará crear carpetas y archivo, pero no solo carpeta)
+
+2. Multicursor
+
+-   Clonar lineas
+    <!-- _Shift + Alt + (Arrow Down | Up)_ = Copy line Down/Up -->
+
+    _Ctrl + K Ctrl + S_ = Revisar shortcuts
+
+-   Multicursor básico
+    _Ctrl + Alt + ↑ / ↓_ = Add cursor above/below (Crear multicursores)
+    seleccion + _Ctrl + Shift + I_ = Add cursor to end line (añade multicursor al final)
+
+-   Lower/Upper Case
+    _CP -> Lower/Upper_ = Transform to lower/upper case
+
+-   Multicursor en posiciones específicas
+    _Alt + Click/DobleClick/Seleccion_ = Multicursor en las posiciones donde des click, o seleccionando lo que hayas seleccionado
+
+-   Siguiente ocurrencia
+    _Ctrl + D_ = Seleccionar la siguiente ocurrencia (posicionandote sobre la palabra o seleccionando un texto)
+
+3. Clases-definiciones
+
+-   Clase-definiciones
+    _Ctrl + Shift + O_ = Buscas por definiciones (de la clase, también funciona con html y otros)
+
+    # también puedes acceder a esto desde "CP -> @"
+
+-   Ir a la linea
+    _Ctrl + G_ = Buscas por número de linealínea
+
+    # también puedes acceder a esto desde "CP -> :"
+
+-   Markdown preview
+    _CP -> Mardkdown: Open preview_ = Muestra un preview en tiempo real del archivo markdown
+
+-   Replace Definition
+    _seleccionar *definición* de clase + F2_ = reemplaza la definicion y las llamadas de la clase (TODO)
+    _seleccionar *llamada de clase (en un archivo externo)* + F2_ = reemplaza las llamadas a la clase en ese archivo distinto del de creación de clase (por ejemplo SuperHero as Hero en el archivo 04). pero no reemplaza el nombre de creación de la clase
+
+4. Snippets
+
+-   Snippets básicos
+    _CP -> snippets -> selecciona el lenguaje_ = creación de snippets
+
+5. Extensiones
+
+-   paste json as code
+    formatea y hace sencillo y automatico el proceso de conversion de json a js...?
+    también disponible en quicktime.io (sus desarrolladores)
+
+-   todo highlight
+    <!-- TODO: lista de tareas -->
+    <!-- FIXME: arreglar -->
+
+    _CP -> TODO..._ = puedes ver los lugares en donde colocaste TODO o FIXME, o ambos, y acceder a ellos (abajo hay una pestañita que te muestran todos)
+
+-   codesnap
+    _CP -> codespan_ = abre codesnap... seleccionando un pedazo de codigo < como imagen o pulsar el logo y poder guardarlo
+
+-   themes
+    pasó sus temas favoritos
+
+-   live server
+-   color highlight
+    en los archivos css vscode por defecto muestra un cuadrito con el color, el cual se puede cambiar con un ui integrado... pero en los demás archivos que no son css no se pueden. para eso sirve esta extensión. te muestra visualmente los colores que estás usando... pero no te permite cambiarlos con el ui
+
+-   settings.json
+    CP -> settings ui/settings.json = puedes cambiar visualmente los ajustes... o editar su json (opciones que no están por defecto)
