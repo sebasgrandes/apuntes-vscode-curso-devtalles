@@ -6,3 +6,5 @@ Apuntes y práctica del curso **Visual Studio Code - Mejora tu velocidad para co
 **La parte práctica está en:** ./src/
 
 **El curso es gratuito**, inscribete aqui: https://cursos.devtalles.com/courses/visual-studio-code
+
+_Disculpen el mal codigo en markdown, hasta ese entonces no sabía usar markdown 😅_
